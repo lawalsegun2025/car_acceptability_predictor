@@ -14,6 +14,14 @@
 
 ## Overview
 
+In this project, we build a model that predicts whether a car is acceptible or not after the servicing period. There are 4 measures for acceptibility and they are; 
+* Good
+* Very Good
+* Acceptable
+* Unacceptable
+
+</br></br>
+
 <div align="center">
   <img src="img/accept_car.jpg">
 </div>
