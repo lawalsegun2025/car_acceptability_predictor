@@ -14,7 +14,7 @@
 
 ## Overview
 
-In this project, we build a model that predicts whether a car is acceptible or not before purchasing. There are 4 measures for acceptibility and they are; 
+In this project, we build a model that predicts whether a car is acceptible or not based on different features of the car. There are 4 measures for acceptibility and they are; 
 * Good
 * Very Good
 * Acceptable
