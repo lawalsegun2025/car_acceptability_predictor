@@ -14,7 +14,9 @@
 
 ## Overview
 
-<img src="img/">
+<div align="center">
+  <img src="img/accept_car.jpg">
+</div>
 
 ## Motivation
 
