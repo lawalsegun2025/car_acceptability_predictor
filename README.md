@@ -28,6 +28,12 @@ In this project, we build a model that predicts whether a car is acceptible or n
 
 ## Motivation
 
+Every year, new car models hit the market. With close to two hundred models available, choosing just one can be overwhelming. Aside from the purchase price, other factors will determine the choice of vehicle you settle on.
+
+When buying a new car, there are many factors to consider. The car needs to fulfill your wants, needs, and lifestyle demands. Also, you’ll want to consider the resale value, costs of ownership, desired features, incentive and trade-in options, and pricing and financing.
+
+Buying a car is usually a pretty big purchase. You will likely be using it for years to come, while you may also be paying for it for a few years. With this in mind, it makes sense to take your time and find the car that is right for and there are various factors to consider when buying a car.
+
 ## Problem Solving Steps
 
 The following steps will be followed in building this project
