@@ -30,6 +30,16 @@ In this project, we build a model that predicts whether a car is acceptible or n
 
 ## Problem Solving Steps
 
+The following steps will be followed in building this project
+1. Load the data into a dataframe
+2. Perform Data Preprocessing and feature creation
+3. Perform Exploratory Data Analysis and get valuable insights from the data
+4. Perform Feature selection
+5. Build models and select the best model that fits the data
+6. Integrate the model with the User Interface that is created using Flask and Bootstrap
+7. Deploy the Machine Learning web app a cloud platform.
+
+
 ## Source of Dataset
 
 ## Data Cleaning Techniques
