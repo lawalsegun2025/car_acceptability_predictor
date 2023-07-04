@@ -16,3 +16,26 @@ def read_data():
     df = pd.read_csv("car_data.csv", names=col_names)
 
     return df
+
+
+
+
+
+
+
+
+
+@ app.route("/", methods=["GET", "POST"])
+def hello_world():
+
+    get_mappings, data = label_encoding(read_data())
+
+    if request.method == "POST":
+
+        my_dict = request.form
+        buy = my_dict["buy"]
+        maintain = my_dict["maintain"]
+        doors = my_dict["doors"]
+        person = my_dict["person"]
+        luggage = my_dict["luggage"]
+        safety = my_dict["safety"]
