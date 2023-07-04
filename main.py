@@ -19,6 +19,25 @@ def read_data():
 
 
 
+# label encoding 
+def label_encoding(df):
+
+    encoder = LabelEncoder()
+    data = df.copy()
+    get_mappings = {}
+
+    for col in list(data.columns):
+        data[col] = encoder.fit_transform(data[col])
+
+        # get the mappings of the encoded dataframe
+        get_mappings[col] = dict(
+            zip(encoder.classes_, encoder.transform(encoder.classes_))
+        )
+
+    return get_mappings, data
+
+
+
 
 
 
