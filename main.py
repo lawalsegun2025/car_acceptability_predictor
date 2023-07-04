@@ -18,6 +18,17 @@ def read_data():
     return df
 
 
+# groupby with target (class) col
+def get_dict(col_name):
+
+    df = read_data()
+
+    return dict(df.groupby([col_name])["class"].count())
+
+
+
+
+
 
 # label encoding 
 def label_encoding(df):
