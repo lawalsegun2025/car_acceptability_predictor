@@ -9,3 +9,10 @@ app = Flask(__name__)
 
 
 # reading the data from csv file
+
+def read_data():
+    col_names = ["buying", "maint", "doors", "persons", "lug_boot", "safety", "class"]
+
+    df = pd.read_csv("car_data.csv", names=col_names)
+
+    return df
