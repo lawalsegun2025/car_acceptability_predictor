@@ -64,3 +64,18 @@ def randomforest(df):
     f1score = metrics.f1_score(y_test, y_pred, average="macro")
     
     return accuracy, recall, precision, f1score, rf
+
+# SCV
+
+def svc(df):
+
+    X_train, X_test, y_train, y_test = split_data(df)
+    svc = SVC()
+    svc.fit(X_train, y_train)
+    y_pred = svc.predict(X_test)
+    accuracy = metrics.accuracy_score(y_test, y_pred)
+    recall = metrics.recall_score(y_test, y_pred, average="macro")
+    precision = metrics.precision_score(y_test, y_pred, average="macro")
+    f1score = metrics.f1_score(y_test, y_pred, average="macro")
+    
+    return accuracy, recall, precision, f1score, svc
