@@ -49,3 +49,18 @@ def dtree(df):
     f1score = metrics.f1_score(y_test, y_pred, average="macro")
     
     return accuracy, recall, precision, f1score, dt
+
+# Random Forest
+
+def randomforest(df):
+
+    X_train, X_test, y_train, y_test = split_data(df)
+    rf = RandomForestClassifier()
+    rf.fit(X_train, y_train)
+    y_pred = rf.predict(X_test)
+    accuracy = metrics.accuracy_score(y_test, y_pred)
+    recall = metrics.recall_score(y_test, y_pred, average="macro")
+    precision = metrics.precision_score(y_test, y_pred, average="macro")
+    f1score = metrics.f1_score(y_test, y_pred, average="macro")
+    
+    return accuracy, recall, precision, f1score, rf
