@@ -34,3 +34,18 @@ def logistic(df):
     f1score = metrics.f1_score(y_test, y_pred, average="macro")
     
     return accuracy, recall, precision, f1score, lr
+
+# Decision Tree
+
+def dtree(df):
+
+    X_train, X_test, y_train, y_test = split_data(df)
+    dt = DecisionTreeClassifier()
+    dt.fit(X_train, y_train)
+    y_pred = dt.predict(X_test)
+    accuracy = metrics.accuracy_score(y_test, y_pred)
+    recall = metrics.recall_score(y_test, y_pred, average="macro")
+    precision = metrics.precision_score(y_test, y_pred, average="macro")
+    f1score = metrics.f1_score(y_test, y_pred, average="macro")
+    
+    return accuracy, recall, precision, f1score, dt
