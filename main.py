@@ -27,9 +27,6 @@ def get_dict(col_name):
 
 
 
-
-
-
 # label encoding 
 def label_encoding(df):
 
@@ -46,11 +43,6 @@ def label_encoding(df):
         )
 
     return get_mappings, data
-
-
-
-
-
 
 
 
