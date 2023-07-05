@@ -6,3 +6,13 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 from sklearn import metrics
 import pickle
+
+# split data into training and testing sets
+
+def split_data(df):
+
+    X = df[['buying', 'maint', 'doors', 'persons', 'lug_boot', 'safety']]
+
+    y = df['class']
+
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
