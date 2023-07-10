@@ -61,3 +61,14 @@ def hello_world():
         person = my_dict["person"]
         luggage = my_dict["luggage"]
         safety = my_dict["safety"]
+        algo = my_dict["algo"]
+
+        value = my_dict['feature']
+
+        values = ["Buying", "Maitainance", "Doors",
+                  "Persons", "Luggage", "Safety"]
+        keys = ['buying', 'maint', 'doors',
+                'persons', 'lug_boot', 'safety', 'class']
+        mapper = dict(zip(keys, values))
+
+        value_count = get_dict(value)
