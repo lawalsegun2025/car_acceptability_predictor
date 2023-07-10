@@ -70,11 +70,14 @@ for col in list(data.columns):
 ```
 
 ## Exploratory Data Analysis
+The plot below is the distribution of the target variable. </br></br>
 
 <div align="center">
   <img src="img/class_plot.png">
 </div>
 
+</br></br>
+From the plot above, it can be seen that this is a multi-class classification and there is an imbalance in the target classes. This was taken into account when building the models.
 
 
 ## Model Building
