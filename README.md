@@ -111,5 +111,3 @@ Below is the plot of the models performances; </br></br>
 It can be seen that Logistic regression had the worst performance while Decision Tree and Random Forest were the best performing models.
 
 ## Deployment
-
-## Future scope of project
