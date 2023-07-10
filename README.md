@@ -52,6 +52,23 @@ https://www.kaggle.com/datasets/subhajeetdas/car-acceptability-classification-da
 
 ## Data Cleaning Techniques
 
+The only data preprocessing required in the data set was conversion of categorical variables to numbers so that it can be accepted by the model. Label Encoding was the method used to convert categorical variables to numerical veriables. The code used is below; 
+
+```
+# import encoder 
+from sklearn.preprocessing import LabelEncoder
+
+# instanciate LabelEncoder
+encoder = LabelEncoder()
+data = X.copy()
+
+get_mappings = {}
+for col in list(data.columns):
+    data[col] = encoder.fit_transform(data[col])
+    get_mappings[col] = dict(zip(encoder.classes_, 
+                                 encoder.transform(encoder.classes_))) 
+```
+
 ## Exploratory Data Analysis
 
 ## Model Building
