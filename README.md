@@ -24,7 +24,7 @@ https://github.com/lawalsegun2025/car_acceptability_predictor/assets/94943377/3a
 
 ## Overview
 
-In this project, we build a model that predicts whether a car is acceptable or not based on different features of the car. There are 4 measures for acceptability and they are; 
+In this project, we built a model that predicts whether a car is acceptable or not based on different features of the car. There are 4 measures for acceptability and they are; 
 * Good
 * Very Good
 * Acceptable
@@ -111,3 +111,5 @@ Below is the plot of the models performances; </br></br>
 It can be seen that Logistic regression had the worst performance while Decision Tree and Random Forest were the best performing models.
 
 ## Deployment
+
+The model was deployed on Render cloud
