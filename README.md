@@ -54,7 +54,7 @@ https://www.kaggle.com/datasets/subhajeetdas/car-acceptability-classification-da
 
 The only data preprocessing required in the data set was conversion of categorical variables to numbers so that it can be accepted by the model. Label Encoding was the method used to convert categorical variables to numerical veriables. The code used is below; 
 
-```
+```python
 # import encoder 
 from sklearn.preprocessing import LabelEncoder
 
