@@ -81,7 +81,7 @@ From the plot above, it can be seen that this is a multi-class classification an
 
 ## Model Building
 
-4 Models were built. They include;
+5 Models were built. They include;
 - Logistic Regression
 - Random Forest Classifier
 - Decision Tree Classifiefer
@@ -89,6 +89,15 @@ From the plot above, it can be seen that this is a multi-class classification an
 - Support Vector Classifier
 
 ## Model Performance
+
+Below is the plot of the models performances; </br></br>
+
+<div align="center">
+  <img src="img/model_performance.png">
+</div>
+</br></br>
+
+It can be seen that Logistic regression had the worst performance while Decision Tree and Random Forest were the best performing models.
 
 ## Deployment
 
