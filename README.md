@@ -10,7 +10,6 @@
 * [Model Building](#model-building)
 * [Model Performance](#model-performance)
 * [Deployment](#deployment)
-* [Future scope of project](#future-scope-of-project)
 
 ## Overview
 
@@ -81,6 +80,13 @@ From the plot above, it can be seen that this is a multi-class classification an
 
 
 ## Model Building
+
+4 Models were built. They include;
+- Logistic Regression
+- Random Forest Classifier
+- Decision Tree Classifiefer
+- KNeighbors Classifier and
+- Support Vector Classifier
 
 ## Model Performance
 
