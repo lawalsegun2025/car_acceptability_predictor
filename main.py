@@ -85,7 +85,7 @@ def hello_world():
         accuracy, recall, precision, f1score, model = algorithm
 
         input_param = [[buy, maintain, doors, person, luggage, safety]]
-        predict = model.predict(inpute_param)
+        predict = model.predict(input_param)
         predicted_class = class_mapper[predict[0]]
 
         return render_template('index.html', predicted_class=predicted_class, display=True, accuracy=round(accuracy*100, 2), precision=precision, showtemplate=True, value_count=value_count, value=mapper[value], mapper=value_count)
