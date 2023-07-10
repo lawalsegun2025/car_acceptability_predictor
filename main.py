@@ -72,3 +72,27 @@ def hello_world():
         mapper = dict(zip(keys, values))
 
         value_count = get_dict(value)
+
+        # Selection of Algorithm
+        algo_mapper = {'rf': randomforest(data), 
+                       'dt': dtree(data), 
+                       'svc': svc(data)}
+        
+        class_mapper = {0: 'Accurate', 1: 'Good', 
+                        2: 'Unaccurate', 3: 'VeryGood'}
+        
+        algorithm = algo_mapper[algo]
+        accuracy, recall, precision, f1score, model = algorithm
+
+        input_param = [[buy, maintain, doors, person, luggage, safety]]
+        predict = model.predict(inpute_param)
+        predicted_class = class_mapper[predict[0]]
+
+        return render_template('index.html', predicted_class=predicted_class, display=True, accuracy=round(accuracy*100, 2), precision=precision, showtemplate=True, value_count=value_count, value=mapper[value], mapper=value_count)
+
+    return render_template('index.html')
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
