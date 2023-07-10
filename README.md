@@ -71,6 +71,12 @@ for col in list(data.columns):
 
 ## Exploratory Data Analysis
 
+<div align="center">
+  <img src="img/class_plot.png">
+</div>
+
+
+
 ## Model Building
 
 ## Model Performance
