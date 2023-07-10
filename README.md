@@ -1,6 +1,7 @@
 # Car Aceptibility Predictor
 
 ## Table of Content
+* [Demo](#demo)
 * [Overview](#overview)
 * [Motivation](#motivation)
 * [Problem Solving Steps](#problem-solving-steps)
@@ -10,6 +11,16 @@
 * [Model Building](#model-building)
 * [Model Performance](#model-performance)
 * [Deployment](#deployment)
+
+## Demo
+
+
+
+
+https://github.com/lawalsegun2025/car_acceptability_predictor/assets/94943377/3a4387fa-8a2d-4ddd-b815-4776e1932231
+
+
+
 
 ## Overview
 
